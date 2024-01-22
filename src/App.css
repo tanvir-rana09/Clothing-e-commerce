@@ -1,0 +1,41 @@
+html,body{
+	overflow-x: hidden;
+	background-color: rgb(242, 250, 250);
+}
+.forli li{
+	cursor: pointer;
+	font-size: 1.08rem;
+	font-weight: 500;
+}
+.divcart {
+	position: relative;
+}
+.forcart{
+	position: absolute;
+	background-color: red;
+	padding: 0 6px;
+	top: 10px;
+	right: 20px;
+	border-radius: 50%;
+color: white;
+}
+.herosection{
+	background-image: url('./Components/Images/hero-bg.jpg');
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.exclusiveOffer{
+	background-image: url('./Components/Images/Banner.jpg');
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 10px;
+	margin: 50px 0;
+	margin-top: 300px;
+}
